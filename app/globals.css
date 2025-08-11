@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'MSGothic';
+  src: url('/fonts/MS Gothic Font.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --background-color: black;
+  --text-color: white;
+}
+
+body {
+  font-size: 13px;
+  width: 500px;
+  margin: auto;
+  margin-top: 15vh;
+  font-family: 'MSGothic', monospace, sans-serif;
+  margin-bottom: 20vh;
+  line-height: 1.25em;
+  color: var(--text-color);
+  position: relative;
+  background-color: var(--background-color);
+  padding-top: 50px; /* padding for fixed navigation at top */
+  overflow: hidden; /* disable scrolling*/
+}
+
+body #arona {
+  position: absolute;
+  right: 0px;
+  top: -150px;
+}
+
+body #text {
+  position: absolute;
+  right: -2px;
+  top: 110px;
+  z-index: 1;
+  width: 500px;
+  line-height: 5px;
+  font-size: 8px;
+  overflow-wrap: break-word;
+}
+
+body main {
+  position: relative;
+  z-index: 2;
+}
+
+body a {
+  color: #EA9AE5;
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+body .thread {
+  color: #EA9AE5;
+  text-decoration: none;
+}
+
+body .thread:hover {
+  text-decoration: underline;
+}
+
+body hr {
+  border: none;
+  text-align: center;
+  color: var(--text-color);
+  margin: 1.5em 0;
+}
+
+body hr::before {
+  content:  "✦ . 　⁺ 　 . ✦ . 　⁺ 　 . ✦";
+  display: block;
+  text-align: center;
+}
+
+body p:not(:nth-child(2)) {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+body p:nth-child(2) {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+body h3:first-child {
+  margin-bottom: 1.5em;
+}
+
+body h3 {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+body h4 {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+body h5 {
+  margin: 0px;
+  font-weight: 100;
+}
+
+body ul, body ol {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+body li::before {
+  content: "> ";
+  color: var(--text-color);
+}
+
+body li {
+  margin-bottom: 0.25em;
+}
+
+body li:last-child {
+  margin-bottom: 0;
+}
+
+/* Maisy hover effect */
+.maisy-hover {
+  position: relative;
+  cursor: pointer;
+}
+
+.maisy-hover:hover::before {
+  content: "mei higashi";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--text-color);
+}
+
+.maisy-hover:hover {
+  color: transparent;
+}
+
+/* light mode land */
+.light-mode {
+  --background-color: white;
+  --text-color: black;
+}
+
+.light-mode body hr {
+  color: black;
+}
+
+.light-mode body li::before {
+  color: black;
+}
+
+@media only screen and (max-width: 650px) {
+  body {
+    width: 80vw !important;
+    padding-top: 80px;
+    overflow: auto; 
+  }
+
+  #arona {
+    display: none;
+  }
+
+  #text {
+    display: none;
+  }
+
+  /* mobile nav */
+  nav {
+    position: absolute !important;
+    top: 10px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+}
