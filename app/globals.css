@@ -180,5 +180,9 @@ body li:last-child {
     top: 10px !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
+    width: 85vw !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
