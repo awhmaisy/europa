@@ -183,6 +183,6 @@ body li:last-child {
     width: 85vw !important;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
   }
 }
