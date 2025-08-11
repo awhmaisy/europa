@@ -7,7 +7,7 @@ export default function JapanesePage() {
       <div className="content">
         <h3>電気つけて!</h3>
         <p style={{ color: '#EA9AE5' }}>
-          "turn on the lights!" - japanese phrase meaning to illuminate or bring clarity
+          &ldquo;turn on the lights!&rdquo; - japanese phrase meaning to illuminate or bring clarity
         </p>
         <hr />
         
@@ -20,8 +20,8 @@ export default function JapanesePage() {
         
         <h4>cultural context</h4>
         <p>
-          this phrase is often used metaphorically to mean "bring enlightenment" or 
-          "shed light on a situation." in the context of technology and innovation, 
+          this phrase is often used metaphorically to mean &ldquo;bring enlightenment&rdquo; or 
+          &ldquo;shed light on a situation.&rdquo; in the context of technology and innovation, 
           it represents the act of illuminating new possibilities and understanding.
         </p>
         
@@ -37,7 +37,7 @@ export default function JapanesePage() {
         
         <p>
           <em>
-            "the best designs are those that turn on the lights in people's minds" 
+            &ldquo;the best designs are those that turn on the lights in people&apos;s minds&rdquo; 
             - illuminating the path to better user experiences and understanding.
           </em>
         </p>

@@ -10,11 +10,12 @@ export default function Navigation() {
 
   useEffect(() => {
     // Check localStorage first, then body class
-    const savedLightMode = localStorage.getItem('light-mode') === 'true';
+    const savedLightMode = localStorage.getItem('light-mode');
     const bodyHasLightMode = document.body.classList.contains('light-mode');
     
-    // Set initial state based on localStorage or body class
-    const initialLightMode = savedLightMode || bodyHasLightMode;
+    // For new users (no localStorage), default to dark mode
+    // For existing users, use their saved preference
+    const initialLightMode = savedLightMode === null ? false : savedLightMode === 'true';
     setIsLightMode(initialLightMode);
     
     // Apply the correct class to body
@@ -22,6 +23,11 @@ export default function Navigation() {
       document.body.classList.add('light-mode');
     } else if (!initialLightMode && bodyHasLightMode) {
       document.body.classList.remove('light-mode');
+    }
+    
+    // For new users, explicitly set dark mode in localStorage
+    if (savedLightMode === null) {
+      localStorage.setItem('light-mode', 'false');
     }
   }, []);
 
