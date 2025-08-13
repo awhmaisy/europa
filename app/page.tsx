@@ -35,9 +35,10 @@ export default function Home() {
         <br />
         <h3>i&apos;m currently...</h3>
         <ul>
+          <li>embedding visuals for <a href="https://open.spotify.com/playlist/6qEKpXt4brBVNKPPz2T003?si=2f69928790c54d3a">centuries</a> and <a href="https://open.spotify.com/playlist/74jP4tInlfyR6bKgXRuAYW?si=c4eba6d9812f42d0">the final game/flesh to machine</a></li>
           <li>conducting alt financial correspondence (tradfi &lt;&gt; defi)</li>
           <li>ingesting the ouroboros of internet capital markets</li>
-          <li>transmuting thought into form via <a href="https://www.npmangel.com">temporally-converged syms</a></li>
+          <li>transmuting via <a href="https://www.npmangel.com">temporally-converged syms [shelved for q4]</a></li>
           <li>practicing computational divination</li>
           <li>always alchemizing precognition and reality speculation!</li>
         </ul>
