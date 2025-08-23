@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navigation from "./components/Navigation";
 import DynamicTitle from "./components/DynamicTitle";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "maisyland",
@@ -23,6 +24,7 @@ export default function RootLayout({
         <DynamicTitle />
         <Navigation />
         {children}
+        <Analytics />
       </body>
     </html>
   );
