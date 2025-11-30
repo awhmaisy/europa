@@ -5,8 +5,8 @@ import DynamicTitle from "./components/DynamicTitle";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  title: "maisyland",
-  description: "aura evangelist ( ᵘ ᵕ ᵘ ⁎)",
+  title: "mei higashi",
+  description: "aura evangelist",
 };
 
 export default function RootLayout({

@@ -8,7 +8,7 @@ export default function LexiconPage() {
         <h3>lexicon cache</h3>
         <hr />
         
-        <h4>q2 2025</h4>
+        <h4>q3 2025</h4>
         <ul>
           <li>spawn</li>
           <li>harvest</li>
@@ -19,6 +19,16 @@ export default function LexiconPage() {
         </ul>
         <br />
         <hr />
+        <h4>q4 2025</h4>
+        <ul>
+          <li>procurement</li>
+          <li>strike on intution</li>
+          <li>land of the free, because of the brave</li>   
+          <li>signal extractor</li>
+          <li>.fmsustain("&lt;1 .75 .5 0&gt;")</li>
+          <li>legion</li>
+          <li>TRS commander</li>
+        </ul>
       </div>
     </main>
   );

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'MSGothic';
-  src: url('/fonts/MS Gothic Font.ttf') format('truetype'); 
+  src: url('/fonts/Berkeley Mono Regular.woff2') format('woff2'); 
   font-weight: normal;
   font-style: normal;
 }
@@ -21,8 +21,8 @@ body {
   color: var(--text-color);
   position: relative;
   background-color: var(--background-color);
-  padding-top: 50px; /* padding for fixed navigation at top */
-  overflow: hidden; /* disable scrolling*/
+  padding-top: 50px; 
+  overflow: hidden; 
 }
 
 body #arona {
@@ -127,14 +127,13 @@ body li:last-child {
   margin-bottom: 0;
 }
 
-/* Maisy hover effect */
 .maisy-hover {
   position: relative;
   cursor: pointer;
 }
 
 .maisy-hover:hover::before {
-  content: "mei higashi";
+  content: "maisy";
   position: absolute;
   left: 0;
   top: 0;
