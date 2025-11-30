@@ -31,7 +31,7 @@ export default function Home() {
           </p>
         */}
         <p>
-          you may have stumbled upon an experiment pertaining to physics, subconscious programming, finance, or startups. if not, a new series "FLIGHT 0-1" is in the works.
+          you may have stumbled upon an experiment pertaining to physics, subconscious programming, finance, or startups. if not, a new series &quot;FLIGHT 0-1&quot; is in the works.
         </p>
         <br />
         <hr />

@@ -25,7 +25,7 @@ export default function LexiconPage() {
           <li>strike on intution</li>
           <li>land of the free, because of the brave</li>   
           <li>signal extractor</li>
-          <li>.fmsustain("&lt;1 .75 .5 0&gt;")</li>
+          <li>.fmsustain(&quot;&lt;1 .75 .5 0&gt;&quot;)</li>
           <li>legion</li>
           <li>TRS commander</li>
         </ul>
