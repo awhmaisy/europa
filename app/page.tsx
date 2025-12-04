@@ -38,7 +38,7 @@ export default function Home() {
         <br />
         <h3>i&apos;m actively...</h3>
         <ul>
-          <li>playing a Game (wink)</li>
+          <li>playing a Game of blitzkrieg (wink)</li>
           <li>aggregating memories to feed a <a href="https://www.npmangel.com">temporally-converged sym</a></li>
         </ul>
         {/* 
