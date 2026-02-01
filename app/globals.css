@@ -161,7 +161,8 @@ body li:last-child {
 @media only screen and (max-width: 650px) {
   body {
     width: 88vw !important;
-    padding-top: 80px;
+    margin-top: 0 !important;
+    padding-top: 10px;
     overflow: auto; 
   }
 

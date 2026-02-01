@@ -64,7 +64,7 @@ export default function Navigation() {
       >
         intercept
       </Link>
-      <Link 
+      {/* <Link 
         href="/lexicon" 
         style={{ 
           color: pathname === '/lexicon' ? activeColor : inactiveColor,
@@ -72,7 +72,7 @@ export default function Navigation() {
         }}
       >
         lexicon
-      </Link>
+      </Link> */}
       <button
         onClick={toggleTheme}
         style={{ 
@@ -86,7 +86,7 @@ export default function Navigation() {
           fontSize: '13px'
         }}
       >
-        {isLightMode ? '電気消して！' : '電気つけて！'}
+        {isLightMode ? 'kiss the void' : 'follow the Light'}
       </button>
     </nav>
   );

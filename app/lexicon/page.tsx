@@ -1,4 +1,11 @@
+import { redirect } from 'next/navigation';
+
 export default function LexiconPage() {
+  // Temporarily redirect to home - page is inactive
+  redirect('/');
+  
+  // Original content preserved below (commented out)
+  /*
   return (
     <main>
       <div id="arona"></div>
@@ -32,4 +39,5 @@ export default function LexiconPage() {
       </div>
     </main>
   );
+  */
 }
