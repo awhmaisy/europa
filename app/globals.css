@@ -159,11 +159,23 @@ body li:last-child {
 }
 
 @media only screen and (max-width: 650px) {
+  html, body {
+    height: 100vh !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
   body {
-    width: 88vw !important;
+    width: 100vw !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
     margin-top: 0 !important;
-    padding-top: 10px;
-    overflow: auto; 
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;
+    gap: 2rem !important;
   }
 
   #arona {
@@ -174,15 +186,42 @@ body li:last-child {
     display: none;
   }
 
-  /* mobile nav */
+  /* mobile nav - part of normal flow, centered with content */
   nav {
-    position: absolute !important;
-    top: 10px !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
     width: 85vw !important;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 1.5rem !important;
+    z-index: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Center main content vertically */
+  body main {
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100%;
+  }
+
+  body .content {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.5 !important;
+    width: 88vw;
+  }
+
+  body .content p {
+    margin: 0.5em 0 !important;
+    line-height: 1.5 !important;
   }
 }

@@ -55,7 +55,7 @@ export default function Home() {
           </div>
         </>
       ) : (
-        <div className="content" style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', lineHeight: '0.5' }}>
+        <div className="content" style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
           <p>the signal waits in the static between frequencies</p>
           <p>see you on the other side</p>
           <br />
